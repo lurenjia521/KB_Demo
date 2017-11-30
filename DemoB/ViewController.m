@@ -39,8 +39,6 @@
         });
     }];
     
-    
-    
     [self presentViewController:second animated:YES completion:nil];
 //    __weak typeof(self)weakSelf = self;
 //    [second getColor:^(UIColor *color, UIColor *color1) {
