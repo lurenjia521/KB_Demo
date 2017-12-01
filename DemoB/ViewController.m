@@ -23,9 +23,9 @@
     UIView *view1 = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     view1.backgroundColor = [UIColor redColor];
     [self.view addSubview:view1];
-//    [view1 moveBy:CGPointMake(100, 200)];
+    [view1 moveBy:CGPointMake(100, 200)];
 //    [view1 sacleBy:1];
-    [view1 fitInSize:CGSizeMake(70, 200)];
+//    [view1 fitInSize:CGSizeMake(70, 200)];
 //    view1.kb_topLeft = CGPointMake(10, 10);
     
 
