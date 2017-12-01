@@ -15,7 +15,8 @@
 		DF870FE11FC2B64700125498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF870FE01FC2B64700125498 /* main.m */; };
 		DF870FEB1FC2B64700125498 /* DemoBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF870FEA1FC2B64700125498 /* DemoBTests.m */; };
 		DF870FF61FC2B64700125498 /* DemoBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF870FF51FC2B64700125498 /* DemoBUITests.m */; };
-		DFFD86C31FCD2F0E00B140AB /* UIView+KBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD86C21FCD2F0E00B140AB /* UIView+KBCategory.m */; };
+		DFF8A9561FD13609009A2B23 /* UIView+KBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A9551FD13609009A2B23 /* UIView+KBCategory.m */; };
+		DFF8A95A1FD1361E009A2B23 /* UIView+KBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A9581FD1361E009A2B23 /* UIView+KBCategory.m */; };
 		DFFD86C61FCE58C200B140AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFD86C51FCE58C200B140AB /* Main.storyboard */; };
 		DFFD86C91FCEADBE00B140AB /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD86C81FCEADBE00B140AB /* BlockViewController.m */; };
 /* End PBXBuildFile section */
@@ -56,9 +57,9 @@
 		DF870FF11FC2B64700125498 /* DemoBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF870FF51FC2B64700125498 /* DemoBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBUITests.m; sourceTree = "<group>"; };
 		DF870FF71FC2B64700125498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFFD86C11FCD2F0E00B140AB /* UIView+KBCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KBCategory.h"; sourceTree = "<group>"; };
-		DFFD86C21FCD2F0E00B140AB /* UIView+KBCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KBCategory.m"; sourceTree = "<group>"; };
-		DFFD86C41FCD322600B140AB /* UIView+KBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KBExtension.h"; sourceTree = "<group>"; };
+		DFF8A9551FD13609009A2B23 /* UIView+KBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+KBCategory.m"; path = "KBTool/UIView+KBCategory.m"; sourceTree = SOURCE_ROOT; };
+		DFF8A9581FD1361E009A2B23 /* UIView+KBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KBCategory.m"; sourceTree = "<group>"; };
+		DFF8A9591FD1361E009A2B23 /* UIView+KBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KBCategory.h"; sourceTree = "<group>"; };
 		DFFD86C51FCE58C200B140AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DFFD86C71FCEADBE00B140AB /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
 		DFFD86C81FCEADBE00B140AB /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		DF870FC51FC2B64700125498 = {
 			isa = PBXGroup;
 			children = (
+				DFF8A9571FD1361E009A2B23 /* KBTool */,
 				DF870FD01FC2B64700125498 /* DemoB */,
 				DF870FE91FC2B64700125498 /* DemoBTests */,
 				DF870FF41FC2B64700125498 /* DemoBUITests */,
@@ -138,9 +140,7 @@
 				DF870FD51FC2B64700125498 /* ViewController.m */,
 				DFFD86C71FCEADBE00B140AB /* BlockViewController.h */,
 				DFFD86C81FCEADBE00B140AB /* BlockViewController.m */,
-				DFFD86C11FCD2F0E00B140AB /* UIView+KBCategory.h */,
-				DFFD86C21FCD2F0E00B140AB /* UIView+KBCategory.m */,
-				DFFD86C41FCD322600B140AB /* UIView+KBExtension.h */,
+				DFF8A9551FD13609009A2B23 /* UIView+KBCategory.m */,
 				DFFD86C51FCE58C200B140AB /* Main.storyboard */,
 				DF870FDA1FC2B64700125498 /* Assets.xcassets */,
 				DF870FDC1FC2B64700125498 /* LaunchScreen.storyboard */,
@@ -166,6 +166,15 @@
 				DF870FF71FC2B64700125498 /* Info.plist */,
 			);
 			path = DemoBUITests;
+			sourceTree = "<group>";
+		};
+		DFF8A9571FD1361E009A2B23 /* KBTool */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8A9581FD1361E009A2B23 /* UIView+KBCategory.m */,
+				DFF8A9591FD1361E009A2B23 /* UIView+KBCategory.h */,
+			);
+			path = KBTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,9 +365,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF870FD61FC2B64700125498 /* ViewController.m in Sources */,
-				DFFD86C31FCD2F0E00B140AB /* UIView+KBCategory.m in Sources */,
+				DFF8A95A1FD1361E009A2B23 /* UIView+KBCategory.m in Sources */,
 				DF870FE11FC2B64700125498 /* main.m in Sources */,
 				DFFD86C91FCEADBE00B140AB /* BlockViewController.m in Sources */,
+				DFF8A9561FD13609009A2B23 /* UIView+KBCategory.m in Sources */,
 				DF870FD31FC2B64700125498 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
