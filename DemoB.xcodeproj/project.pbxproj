@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D805D6D85EC333489FF383C /* libPods-DemoB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5484DB0DF93A44008EFDA0C4 /* libPods-DemoB.a */; };
+		DF3080B61FD514F00021FB1F /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3080B51FD514F00021FB1F /* BlockViewController.m */; };
 		DF870FD31FC2B64700125498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF870FD21FC2B64700125498 /* AppDelegate.m */; };
 		DF870FD61FC2B64700125498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF870FD51FC2B64700125498 /* ViewController.m */; };
 		DF870FDB1FC2B64700125498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF870FDA1FC2B64700125498 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		DFF8A9561FD13609009A2B23 /* UIView+KBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A9551FD13609009A2B23 /* UIView+KBCategory.m */; };
 		DFF8A95A1FD1361E009A2B23 /* UIView+KBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A9581FD1361E009A2B23 /* UIView+KBCategory.m */; };
 		DFFD86C61FCE58C200B140AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFD86C51FCE58C200B140AB /* Main.storyboard */; };
-		DFFD86C91FCEADBE00B140AB /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD86C81FCEADBE00B140AB /* BlockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,8 @@
 		4BDF3BD6A5046A7BF436DB7F /* Pods-DemoB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoB/Pods-DemoB.debug.xcconfig"; sourceTree = "<group>"; };
 		5484DB0DF93A44008EFDA0C4 /* libPods-DemoB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66165851352089D9963484AA /* Pods-DemoB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoB.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoB/Pods-DemoB.release.xcconfig"; sourceTree = "<group>"; };
+		DF3080B41FD514F00021FB1F /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		DF3080B51FD514F00021FB1F /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		DF870FCE1FC2B64700125498 /* DemoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF870FD11FC2B64700125498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF870FD21FC2B64700125498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,8 +63,6 @@
 		DFF8A9581FD1361E009A2B23 /* UIView+KBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KBCategory.m"; sourceTree = "<group>"; };
 		DFF8A9591FD1361E009A2B23 /* UIView+KBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KBCategory.h"; sourceTree = "<group>"; };
 		DFFD86C51FCE58C200B140AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DFFD86C71FCEADBE00B140AB /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
-		DFFD86C81FCEADBE00B140AB /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +138,8 @@
 				DF870FD21FC2B64700125498 /* AppDelegate.m */,
 				DF870FD41FC2B64700125498 /* ViewController.h */,
 				DF870FD51FC2B64700125498 /* ViewController.m */,
-				DFFD86C71FCEADBE00B140AB /* BlockViewController.h */,
-				DFFD86C81FCEADBE00B140AB /* BlockViewController.m */,
+				DF3080B41FD514F00021FB1F /* BlockViewController.h */,
+				DF3080B51FD514F00021FB1F /* BlockViewController.m */,
 				DFF8A9551FD13609009A2B23 /* UIView+KBCategory.m */,
 				DFFD86C51FCE58C200B140AB /* Main.storyboard */,
 				DF870FDA1FC2B64700125498 /* Assets.xcassets */,
@@ -364,10 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3080B61FD514F00021FB1F /* BlockViewController.m in Sources */,
 				DF870FD61FC2B64700125498 /* ViewController.m in Sources */,
 				DFF8A95A1FD1361E009A2B23 /* UIView+KBCategory.m in Sources */,
 				DF870FE11FC2B64700125498 /* main.m in Sources */,
-				DFFD86C91FCEADBE00B140AB /* BlockViewController.m in Sources */,
 				DFF8A9561FD13609009A2B23 /* UIView+KBCategory.m in Sources */,
 				DF870FD31FC2B64700125498 /* AppDelegate.m in Sources */,
 			);

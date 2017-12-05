@@ -11,7 +11,7 @@ CGPoint CGRectGetCenter(CGRect rect);
 CGRect  CGRectMoveToCenter(CGRect rect,CGPoint center);
 
 @interface UIView (KBCategory)
-//康滨滨的基类
+
 @property (nonatomic,assign) CGFloat kb_x;
 @property (nonatomic,assign) CGFloat kb_y;
 @property (nonatomic,assign) CGFloat kb_width;

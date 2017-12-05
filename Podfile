@@ -3,5 +3,6 @@ target 'DemoB' do
 pod 'AFNetworking'
 pod 'Masonry'
 pod 'Bugly'
+pod 'KBTool'
 
 end

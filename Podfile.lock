@@ -15,18 +15,21 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Bugly (2.5.0)
+  - KBTool (1.0.3)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking
   - Bugly
+  - KBTool
   - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Bugly: 00c8701f2bebab4887771ba43afbf51334009742
+  KBTool: 890488c9674204abc6464c48ac13d24a9723d88c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 7720e1d0fbdf55c57593fd14d864c73377f52599
+PODFILE CHECKSUM: 7856ee7dd5cd6df34a8f931b9860263db76c25ac
 
 COCOAPODS: 1.3.1
